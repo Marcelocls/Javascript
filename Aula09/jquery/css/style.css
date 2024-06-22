@@ -1,0 +1,10 @@
+#mover{
+    width: 200px;
+    border: 1px solid silver;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#mover img{
+    width: 100%;
+}

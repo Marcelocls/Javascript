@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+h1{
+    font-family: arial;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+p{
+    font-size: 11pt;
+    font-family: arial;
+    line-height: 22pt;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+img{
+    width: 500px;
+    height: 500px;
+}
+
+div{
+    text-align: center;
+}
+
+#camada{
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: ease 5s;
+}
+
+#camada img{
+    width: 250px;
+    height: 200px;
+}
